@@ -45,7 +45,7 @@ function createMap(time_frame) {
   });
 
   // Add a control to the map that will allow the user to change which layers are visible.
-  let queryURL = `https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_${time_frame}.geojson`;
+  let queryURL =`https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_${time_frame}.geojson`;
   let platesURL = 'https://raw.githubusercontent.com/fraxen/tectonicplates/refs/heads/master/GeoJSON/PB2002_boundaries.json';
 
   // Make a request that retrieves the earthquake geoJSON data.
