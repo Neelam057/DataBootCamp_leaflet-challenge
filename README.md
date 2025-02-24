@@ -39,12 +39,17 @@ earthquake-app/
 └── README.md                 
 
 
-### index.html
-- Contains the basic structure and layout for the web page, including the map container and controls.
+### File Descriptions:
 
-### style.css
-- Provides custom styling for the map, controls, and other page elements.
+- **`index.html`**: 
+  Contains the basic structure and layout for the web page, including the map container and controls. It links to the `style.css` for custom styling and to the `logic.js` file for JavaScript functionality. It provides the user interface for interacting with the earthquake data.
 
-### logic.js
-- Contains the JavaScript logic for fetching the earthquake and tectonic plate data, generating the map, and applying interactivity.
+- **`style.css`**: 
+  Provides custom styling for the map, controls, and other page elements. This file handles the layout, button styles, and map dimensions. It ensures the map and controls are properly displayed and responsive.
+
+- **`logic.js`**: 
+  Contains the JavaScript logic for fetching the earthquake and tectonic plate data from the USGS API, generating the map, and applying interactivity. This file also handles filtering the data based on the selected time frame, and dynamically updating the map with new data.
+
+
+
 
