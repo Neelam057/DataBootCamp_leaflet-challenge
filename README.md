@@ -22,16 +22,21 @@ The project allows users to view earthquake data dynamically over different time
 - **GeoJSON**: A format for encoding geographical data structures.
 - **HTML, CSS**: Standard web technologies for creating the user interface.
 
+## Project Structure
+
+The project is organized as follows:
+
+```
 earthquake-app/
 │
 ├── static/
 │   ├── css/
-│   │   └── style.css         # Your custom CSS file
+│   │   └── style.css         
 │   ├── js/
-│   │   └── logic.js          # Your custom JS file
-│   │   └── leaflet-heat.js          # Your custom JS file
-├── index.html                # Your main HTML file
-└── README.md                 # Your README file (to be created)
+│   │   └── logic.js          
+│   │   └── leaflet-heat.js          
+├── index.html                
+└── README.md                 
 
 
 ### `index.html`
