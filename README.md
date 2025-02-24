@@ -36,8 +36,9 @@ earthquake-app/
 │   │   └── logic.js          
 │   │   └── leaflet-heat.js          
 ├── index.html                
-└── README.md                 
-
+└── README.md  
+               
+```
 
 ### File Descriptions :
 
